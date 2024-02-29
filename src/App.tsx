@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Features from "./pages/Features";
 import Footerx from "./components/Footer";
 
+// @ts-ignore
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
