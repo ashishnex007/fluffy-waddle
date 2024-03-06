@@ -49,7 +49,7 @@ const ContactComponent: React.FC = () => {
           to_name: "Ashish Gowtham",
           from_email: form.email,
           to_email: "ashish.goutham@gmail.com",
-          message: form.message,
+          message: form.name +" " + form.email + " " + form.message + "from TVM page",
         },
         publicKey
       )
